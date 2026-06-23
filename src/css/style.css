@@ -23,3 +23,21 @@ body {
   background-color: var(--bg-color);
   color: var(--text-color);
 }
+
+/* Header */
+header {
+  background-color:var(--secondary-color);
+  padding: 16px 0px;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  margin-bottom: 3rem;
+}
+
+/* titulo do header */
+header h1{
+  margin: 0;
+  color:var(--text-color);
+}
+ /* deixar apenas o span em destaque */
+header span {
+  color: var(--third-color);
+}
