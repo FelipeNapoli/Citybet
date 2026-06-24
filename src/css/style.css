@@ -94,11 +94,20 @@ main h2 {
     margin-bottom: 1rem;
 }
 
-.time1 {
+#time1-1 {
     width: 200px;
 }
 
-.time2 {
+#time1-2 {
+    width: 200px;
+}
+
+
+#time2-1 {
+    width: 200px;
+}
+
+#time2-2 {
     width: 200px;
 }
 

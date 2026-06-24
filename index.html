@@ -23,10 +23,10 @@
                     <img src="src/assets/BandeiraEscocia.png" alt="Escócia">
                 </div>
                 <div class="input-partida">
-                    <input type="number" min="0" max="10" placeholder="Brasil" class="time1">
-                    <input type="number" min="0" max="10" placeholder="Escócia" class="time2">
+                    <input type="number" min="0" max="10" placeholder="Brasil" id="time1-1">
+                    <input type="number" min="0" max="10" placeholder="Escócia" id="time1-2">
                 </div>
-                <button class="btn-palpite">Palpite</button>
+                <button onclick="salvarPalpite('Brasil vs Escócia', 1)" class="btn-palpite">Palpite</button>
             </article>
 
             <article class="card">
@@ -38,10 +38,10 @@
                     <img src="src/assets/BandeiraNoruega.webp" alt="Noruega">
                 </div>
                 <div class="input-partida">
-                    <input type="number" min="0" max="10" placeholder="França" class="time1">
-                    <input type="number" min="0" max="10" placeholder="Noruega" class="time2">
+                    <input type="number" min="0" max="10" placeholder="França" id="time2-1">
+                    <input type="number" min="0" max="10" placeholder="Noruega" id="time2-2">
                 </div>
-                <button class="btn-palpite">Palpite</button>
+                <button onclick="salvarPalpite('França vs Noruega', 2)" class="btn-palpite">Palpite</button>
             </article>
         </section>
 
@@ -64,6 +64,7 @@
         <p>&copy; 2026 todos os direitos reservados</p>
     </footer>
       
-        
+    <!-- JS EXTERNO -->
+     <script src="src/js/script.js"></script> 
 </body>
 </html>
